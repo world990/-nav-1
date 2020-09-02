@@ -1,5 +1,14 @@
 {
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --on-minify --public-url ./"
+  },
   "devDependencies": {
     "cssnano": "^4.1.10"
-  }
+  },
+  "name": "前航1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:world990/-nav-1.git",
+  "author": "world990 <342721572@qq.com>",
+  "license": "MIT"
 }
